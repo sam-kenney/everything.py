@@ -1,0 +1,12 @@
+<p class="search-index">
+  Welcome to Everything!
+  Search for anything you want to know about, and GPT-3 will find the best answer for you.
+</p>
+<input type="search" id="searchbox">
+<button type="submit" onclick="search()">Search</button>
+<script>
+  let search = () => {
+    let query = document.getElementById("searchbox").value;
+    window.location.href = "search?q=" + query;
+  }
+</script>

@@ -1,0 +1,13 @@
+[flake8]
+max-complexity = 8
+max-line-length = 88
+exclude =
+	.git,
+	.tox,
+	.nox,
+	venv,
+	__pycache__
+ignore =
+  I201
+  # not yet up to date with https://www.flake8rules.com/rules/W503.html
+  W503
